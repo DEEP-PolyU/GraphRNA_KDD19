@@ -15,7 +15,7 @@ from models import pro_lstm_featwalk
 # Training settings
 parser = argparse.ArgumentParser()
 parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
-parser.add_argument('--seed', type=int, default=32, help='Random seed.')
+parser.add_argument('--seed', type=int, default=10, help='Random seed.')
 parser.add_argument('--gpu', type=int, default=0, help='GPU index.')
 parser.add_argument('--epochs', type=int, default=200, help='Number of epochs to train.')
 parser.add_argument('--lr', type=float, default=0.0001, help='Initial learning rate.')
